@@ -1,0 +1,22 @@
+{
+  "name": "webcamera",
+  "version": "1.0.0",
+  "description": "une application camera accessible à distance",
+  "main": "index.js",
+  "scripts": { "start": 
+    "lite-server"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnbou/webcamera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnbou/webcamera/issues"
+  },
+  "homepage": "https://github.com/mnbou/webcamera#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
