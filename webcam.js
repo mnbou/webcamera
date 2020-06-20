@@ -2,7 +2,7 @@ const webcamElement = document.getElementById('webcam');
 const canvasElement = document.getElementById('canvas');
 const snapSoundElement = document.getElementById('snapSound');
 const webcam = new Webcam(webcamElement, 'user', canvasElement, snapSoundElement);
-
+//demande de permission
 webcam.start()
   .then(result =>{
     console.log("webcam started");
@@ -13,3 +13,5 @@ webcam.start()
 
 let picture = webcam.snap();
 document.querySelector('#download-photo').href = picture;
+
+//module js de webcam
